@@ -53,10 +53,10 @@
                   </div>
                 </div>
                 <div class="my-3">
-                  <button class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" onclick="Login()" type="button">LOGIN</button>
+                  <button class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" onclick="Login()" type="button">MASUK</button>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
-                  Belum punya akun? <a href="register-2.html" class="text-primary">Buat</a>
+                  Belum punya akun? <a href="register-2.html" class="text-primary">Daftar</a>
                 </div>
               </form>
             </div>
@@ -86,7 +86,7 @@
             var password = document.login.password.value;
             password = password.toLowerCase();
             if (username == "user" && password == "password") {
-                window.location.href = "../../index_copy.html";
+                window.location.href = "../../index2.html";
             } else if (username == "partner_premium" && password == "password") {
               window.location.href = "../../index.html";
             } else if (username == "partner_free" && password == "password") {
